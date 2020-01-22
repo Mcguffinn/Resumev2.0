@@ -1,0 +1,41 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+body .container h1 {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  color: #3ea2e6;
+}
+body .container h2 h3 {
+  font-size: 100%;
+  margin: 2% 2%;
+  font-size: 1.5rem;
+}
+body .container .header .name h1 {
+  margin: 10% none;
+}
+body .container .nav-contact {
+  display: flex;
+  flex-direction: row;
+}
+body .container .nav-contact a {
+  font-size: 100%;
+  margin: 2% 2%;
+  font-size: 1.5rem;
+}
+body .container .nav-contact h3 {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  color: #000000;
+}
+body .container .main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Rubik Light'), local('Rubik-Light'), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Fqj2md8WU.ttf) format('truetype');
+}
